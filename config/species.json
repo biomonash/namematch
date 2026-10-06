@@ -1,0 +1,18 @@
+[
+    {"name": "Vombatus ursinus", "alternatives": ["common wombat"]},
+    {"name": "Macropus giganteus", "alternatives": ["eastern grey kangaroo"]},
+    {"name": "Phascolarctos cinereus", "alternatives": ["koala"]},
+    {"name": "Tachyglossus aculeatus", "alternatives": ["short-beaked echidna"]},
+    {"name": "Ornithorhynchus anatinus","alternatives": ["platypus"]},
+    {"name": "Trichosurus vulpecula", "alternatives": ["common brushtail possum"]},
+    {"name": "Wallabia bicolor", "alternatives": ["black wallaby"]},
+    {"name": "Pseudophryne semimarmorata", "alternatives": ["southern toadlet"]},
+    {"name": "Litoria raniformis", "alternatives": ["growling grass frog"]},
+    {"name": "Tiliqua scincoides", "alternatives": ["common blue-tongued lizard"]},
+    {"name": "Pogona barbata", "alternatives": ["eastern bearded dragon"]},
+    {"name": "Notechis scutatus", "alternatives": ["tiger snake"]},
+    {"name": "Cracticus tibicen", "alternatives": ["australian magpie"]},
+    {"name": "Platycercus elegans", "alternatives": ["crimson rosella"]},
+    {"name": "Menura novaehollandiae", "alternatives": ["superb lyrebird"]},
+    {"name": "Petauroides volans", "alternatives": ["greater glider"]}
+]

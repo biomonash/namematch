@@ -1,6 +1,0 @@
-[
-    {"name": "Panthera tigris", "alternatives": ["tiger"]},
-    {"name": "Canis lupus", "alternatives": ["wolf"]},
-    {"name": "Balaenoptera musculus", "alternatives": ["blue whale"]},
-	{"name": "Orcinus orca", "alternatives": ["orca", "killer whale"]}
-]

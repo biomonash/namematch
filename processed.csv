@@ -1,0 +1,33 @@
+id,species,location,species_processed
+1,Panthera tigris,Victoria,ERROR: MANUAL CHECK
+2,Common Wombat,Victoria,Vombatus ursinus
+3,commn wombat,Victoria,Vombatus ursinus
+4,Eastern Grey Kangaroo,Victoria,Macropus giganteus
+5,eastern grey kangroo,Victoria,Macropus giganteus
+6,Koala,Victoria,Phascolarctos cinereus
+7,koalaa,Victoria,Phascolarctos cinereus
+8,Short-beaked Echidna,Victoria,Tachyglossus aculeatus
+9,short beaked echidna,Victoria,Tachyglossus aculeatus
+10,Platypus,Victoria,Ornithorhynchus anatinus
+11,platypuss,Victoria,Ornithorhynchus anatinus
+12,Common Brushtail Possum,Victoria,Trichosurus vulpecula
+13,common brushtail possm,Victoria,Trichosurus vulpecula
+14,Black Wallaby,Victoria,Wallabia bicolor
+15,black wallaby,Victoria,Wallabia bicolor
+16,Red-bellied Black Snake,Victoria,ERROR: MANUAL CHECK
+17,red bellied black snake,Victoria,ERROR: MANUAL CHECK
+18,Common Blue-tongued Lizard,Victoria,Tiliqua scincoides
+19,common blue tongued lizrd,Victoria,Tiliqua scincoides
+20,Growling Grass Frog,Victoria,Litoria raniformis
+21,growling gras frog,Victoria,Litoria raniformis
+22,Southern Toadlet,Victoria,Pseudophryne semimarmorata
+23,southern toadlet,Victoria,Pseudophryne semimarmorata
+24,Superb Lyrebird,Victoria,Menura novaehollandiae
+25,superb lyrebird,Victoria,Menura novaehollandiae
+26,Australian Magpie,Victoria,Cracticus tibicen
+27,australian magpie,Victoria,Cracticus tibicen
+28,Crimson Rosella,Victoria,Platycercus elegans
+29,crimson rosella,Victoria,Platycercus elegans
+30,Greater Glider,Victoria,Petauroides volans
+31,greater glidr,Victoria,Petauroides volans
+32,elefant,Victoria,ERROR: MANUAL CHECK

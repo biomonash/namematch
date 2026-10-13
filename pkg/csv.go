@@ -1,8 +1,8 @@
 package normaliser
 
 import (
-	"encoding/json"
 	"encoding/csv"
+	"encoding/json"
 	"os"
 	"strings"
 )
@@ -16,7 +16,9 @@ type CSVResult struct {
 func LoadSpecies(filename string) ([]Species, error) {
 	file, err := os.Open(filename)
 
-	if err != nil {return nil, err}
+	if err != nil {
+		return nil, err
+	}
 
 	defer file.Close()
 
@@ -24,7 +26,9 @@ func LoadSpecies(filename string) ([]Species, error) {
 
 	err = json.NewDecoder(file).Decode(&species)
 
-	if err != nil {return nil, err}
+	if err != nil {
+		return nil, err
+	}
 
 	return species, nil
 }
@@ -32,7 +36,9 @@ func LoadSpecies(filename string) ([]Species, error) {
 func ProcessCSV(inputFile string, outputFile string, columnName string, species []Species) (CSVResult, error) {
 	input, err := os.Open(inputFile)
 
-	if err != nil {return CSVResult{}, err}
+	if err != nil {
+		return CSVResult{}, err
+	}
 
 	defer input.Close()
 
@@ -40,9 +46,13 @@ func ProcessCSV(inputFile string, outputFile string, columnName string, species 
 
 	rows, err := reader.ReadAll()
 
-	if err != nil {return CSVResult{}, err}
+	if err != nil {
+		return CSVResult{}, err
+	}
 
-	if len(rows) == 0 {return CSVResult{}, nil}
+	if len(rows) == 0 {
+		return CSVResult{}, nil
+	}
 
 	header := rows[0]
 
@@ -55,13 +65,17 @@ func ProcessCSV(inputFile string, outputFile string, columnName string, species 
 		}
 	}
 
-	if columnIndex == -1 {return CSVResult{}, os.ErrNotExist}
+	if columnIndex == -1 {
+		return CSVResult{}, os.ErrNotExist
+	}
 
 	header = append(header, columnName+"_processed")
 
 	output, err := os.Create(outputFile)
 
-	if err != nil {return CSVResult{}, err}
+	if err != nil {
+		return CSVResult{}, err
+	}
 
 	defer output.Close()
 

@@ -5,7 +5,8 @@ import (
 	"flag"
 	"fmt"
 	"os"
-	"species_name_normaliser/normaliser"
+
+	normaliser "github.com/biomonash/namematch/pkg"
 )
 
 func main() {

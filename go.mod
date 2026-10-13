@@ -1,3 +1,3 @@
-module species_name_normaliser
+module github.com/biomonash/namematch
 
-go 1.27.0
+go 1.24.6
